@@ -1,0 +1,458 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+    background-color: black;
+    background-image: url("../img/酒瓶背景\ 1.png");
+    background-position: 100% 10%;
+    background-repeat: no-repeat;
+    /* background-position: -30 top; */
+    /* color: white; */
+}
+
+
+
+/* ---------heard---------- */
+
+header{
+    /* width: 1920px;*/
+    height: 150px;
+    /* background-color: black; */
+}
+
+.top img{
+    /* height: 100%; */
+    height: 130px;
+    padding-top: 20px;
+}
+
+.top{
+    /* height: 150px; */
+    /* width: 1200px; */
+    width: 79%;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top ul{
+    display: flex;
+    /* background-color: brown; */
+}
+
+.top ul li{
+    margin-right: 60px;
+    position: relative;
+    display: flex;
+
+}
+
+.top a{
+    text-decoration: none;
+    color: white;
+}
+
+.top li ol{
+    display: none;
+    position: absolute;
+    top: 30px;
+
+}
+
+.top li ol a{
+    display: block;
+    width: 80px;
+    /* text-align: center; */
+}
+
+
+/* ---------.slogan---------- */
+
+.slogan{
+    /* background-image: url(img/大背景圖.png); */
+    height: 1000px;
+    margin: 0 auto;
+}
+
+
+.slogan img{
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.slogan p{
+    padding-top: 60px;
+}
+
+.slogan p a{
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    color: bla;
+    background-color: white;
+    color: black;
+    margin: 0 auto;
+    width: 240px;
+    height: 97px;
+    text-align: center;
+    line-height: 97px;
+    border-radius: 50px;
+    transition: .5s;
+
+}
+
+/* ---------中間第一段.edition---------- */
+
+.edition{
+    line-height: normal;
+    display: block;
+    margin: 0 auto;
+    margin-top: 38px;
+    width: 1249px;
+    /* width: 65%; */
+    height: 864px;
+    background-color: rgba(201, 3, 3);
+    color: white;
+    
+}
+
+.title{
+    width: 1200px;
+    /* width: 97%; */
+    margin: 0 auto;
+}
+
+.title h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.title h2{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.more{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.more p{
+    /* font-size: 30px; */
+}
+
+.more a{
+    display: block;
+    color: black;
+    background-color:white;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    width: 160px;
+    height: 60px;
+    border-radius: 50px;
+    line-height: 60px;
+    transition: .5s;
+    
+}
+
+.cocktail{
+    width: 1200px;
+    /* width: 97%; */
+    /* height: 476px; */
+    margin: 0 auto;
+    margin-top: 43px;
+    /* margin-bottom: 51px; */
+}
+
+.cocktail ul{
+    display: flex;
+
+}
+
+.cocktail ul li{
+    /* margin-left: 10px; */
+    margin-right: 23px;
+    /* flex-shrink: 0; */
+    height: 476px;
+}
+
+.cocktail ul li img{
+    width: 385px;
+    /* width: 110%; */
+    height: 100%;  /*突然就搞定照片的高度問題!!!*/
+    /* margin-left: 23px; */
+}
+
+/* .cocktail ul li:nth-child(2) img{
+    margin-left: 65px;
+    width: 95%;
+    height: 100%;
+}
+
+.cocktail ul li:nth-child(3) img{
+    margin-left: 70px;
+    width: 81%;
+    height: 100%;
+} */
+
+.cocktail ul li p{
+    font-size: 30px;
+    text-align: center;
+}
+
+/* ---------中間第二段.products---------- */
+
+.products{
+    display: block;
+    margin: 0 auto;
+    margin-top: 38px;
+    width: 1249px;
+    height: 864px;
+    background-color: rgba(201, 3, 3);
+    line-height: normal;
+    color: white;
+}
+
+.title2{
+    width: 1200px;
+    margin: 0 auto;
+    /* margin-top: 106px; */
+}
+
+.title2 h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 25px;
+    /* color: white; */
+}
+
+.title2 h2{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 25px;
+    /* color: white; */
+}
+
+.more2{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.more2 p{
+    font-size: 30px;
+    /* color: white; */
+}
+
+.more2 a{
+    display: block;
+    color:black;
+    background-color: white;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    width: 160px;
+    height: 60px;
+    border-radius: 50px;
+    line-height: 60px;
+    transition: .5s;
+    
+}
+
+.item{
+    width: 1200px;
+    /* height: 476px; */
+    margin: 0 auto;
+    margin-top: 43px;
+    /* margin-bottom: 51px; */
+}
+
+.item ul{
+    display: flex;
+
+}
+
+.item ul li{
+    margin-right: 23px;
+    height: 385px;
+}
+
+.item ul li img{
+    width: 385px;
+    height: 100%;  /*突然就搞定照片的高度問題!!!*/
+    /* margin-left: 23px; */
+}
+
+.item ul li p{
+    font-size: 30px;
+    text-align: center;
+    /* color:white; */
+    padding-top: 30px;
+    /* line-height: normal; */
+}
+
+.item ul li p + p{
+    color: white;
+}
+
+.item ul li p + p + p{
+    color: rgba(217, 217, 217);
+    padding-top: 0;
+    text-decoration:line-through
+}
+
+/* ---------中間第三段.lesson---------- */
+
+.lesson{
+    display: block;
+    margin: 0 auto;
+    margin-top: 38px;
+    margin-bottom: 38px;
+    width: 1249px;
+    height: 864px;
+    background-color: rgba(201, 3, 3);
+    /* background-color: red; */
+    line-height: normal;
+    color: white;
+}
+
+.title3{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+.title3 h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    /* padding-top: 106px; */
+    /* color: white; */
+}
+
+.title3 h2{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 25px;
+    /* color: white; */
+}
+
+.more3{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.more3 p{
+    font-size: 30px;
+    /* color: white; */
+}
+
+.more3 a{
+    display: block;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    width: 160px;
+    height: 60px;
+    border-radius: 50px;
+    line-height: 60px;
+    transition: .5s;
+    
+}
+
+.school{
+    width: 1200px;
+    /* height: 476px; */
+    margin: 0 auto;
+    margin-top: 43px;
+    /* margin-bottom: 51px; */
+}
+
+.school ul{
+    display: flex;
+
+}
+
+.school ul li{
+    margin-right: 23px;
+    height: 476px;
+}
+
+.school ul li img{
+    width: 385px;
+    height: 100%;  /*突然就搞定照片的高度問題!!!*/
+    /* margin-left: 23px; */
+}
+
+.school ul li p{
+    font-size: 30px;
+    text-align: center;
+    /* color:black; */
+    padding-top: 30px;
+}
+
+/* ---------最後尾巴---------- */
+
+footer img{
+    width: 100%;
+}
+
+/* ---------警告標語---------- */
+
+.warn{
+    height: 162px;
+    position: fixed;
+    bottom: 0;
+}
+
+
+
+
+/* ---------滑鼠hover特效---------- */
+
+
+.slogan a:hover{
+    color: white;
+    background-color: rgba(255, 4, 4);
+}
+
+.more a:hover{
+    color: white;
+    background-color: rgba(255, 4, 4);
+}
+
+.more2 a:hover{
+    color: white;
+    background-color: rgba(255, 4, 4);
+}
+
+.more3 a:hover{
+    color: white;
+    background-color: rgba(255, 4, 4);
+}
+
+.slogan p a:hover{
+    background-color: rgba(255, 4, 4);
+}
+
+
+.top li:hover > ol{
+    display: block;
+}

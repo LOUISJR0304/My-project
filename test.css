@@ -1,0 +1,29 @@
+.text{
+    height: 700px;
+}
+
+.text p{
+    width: 581px;
+    /* height: 700px; */
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 9;
+    margin-right: 43px;
+    /* text-overflow: ellipsis;
+    white-space: nowrap; */
+}
+
+a{
+    display: block;
+    width: 123px;
+    height: 70px;
+    border-radius: 50px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    line-height: 70px;
+    position: absolute;
+    top: 500px;
+    left: 450px;
+}

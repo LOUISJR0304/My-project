@@ -1,0 +1,94 @@
+
+body{
+    background-color: black;
+    font-size: 20px;
+    color: white;
+}
+
+
+/* ---------heard---------- */
+
+header{
+    /* width: 1920px;*/
+    height: 150px;
+    /* background-color: black; */
+    margin-bottom: 21px;
+}
+
+.top img{
+    /* height: 100%; */
+    height: 130px;
+    padding-top: 20px;
+}
+
+.top{
+    /* height: 150px; */
+    /* width: 1200px; */
+    width: 63%;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top ul{
+    display: flex;
+    /* background-color: brown; */
+}
+
+.top ul li{
+    margin-right: 60px;
+    position: relative;
+    display: flex;
+    font-size: 20px;
+
+}
+
+.top a{
+    text-decoration: none;
+    color: white;
+}
+
+.top li ol{
+    display: none;
+    position: absolute;
+    top: 30px;
+
+}
+
+.top li ol a{
+    display: block;
+    width: 80px;
+    /* text-align: center; */
+}
+
+.top li:hover > ol{
+    display: block;
+}
+
+/* ---------pho---------- */
+
+.pho{
+    background-image: url("../img/cocktail-background.png");
+}
+
+
+/* ---------main---------- */
+
+.nav h1{
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+.recipe h1{
+    font-size: 50px;
+    font-weight: bolder;
+}

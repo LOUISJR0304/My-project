@@ -1,0 +1,43 @@
+
+<div class="text">
+        <div id="lessDiv">
+            <p>調酒的歷史可以追溯到公元前7000年左右的中國，當時人們開始釀造米酒、葡萄酒和啤酒等。
+            <br>在古希臘和羅馬時期，人們喜歡用蜂蜜和香料來調製酒類飲品。
+            <br>中世紀時期，調酒師在歐洲興起，開始用各種酒、果汁和香料調製飲品。
+            <br>19世紀時，隨著工業化的進程，調酒師開始使用瓶裝調味酒和糖漿，並發明了許多經典的調酒配方，例如瑪格麗塔、馬丁尼等。
+            <a id="open">MORE</a>
+        </div>
+
+        <div id="fullDiv" style="display:none">
+            <p>調酒的歷史可以追溯到公元前7000年左右的中國，當時人們開始釀造米酒、葡萄酒和啤酒等。
+            <br>在古希臘和羅馬時期，人們喜歡用蜂蜜和香料來調製酒類飲品。
+            <br>中世紀時期，調酒師在歐洲興起，開始用各種酒、果汁和香料調製飲品。
+            <br>19世紀時，隨著工業化的進程，調酒師開始使用瓶裝調味酒和糖漿，並發明了許多經典的調酒配方，例如瑪格麗塔、馬丁尼等。
+            <br>20世紀以來，調酒師們不斷推陳出新，發明了許多創意十足、風味獨特的調酒，並成為現代酒吧文化的代表性人物之一。
+            <br>近年來，調酒已不再只是簡單的混合飲料，而是注重使用高品質的材料和烹調技巧，並將經典調酒重新演繹。
+            <br>此外，調酒也逐漸成為一種文化和生活方式，各種風格和主題的酒吧也逐漸興起。
+            <br>同時，酒吧文化也越來越注重健康和可持續性，例如使用有機和本地食材、減少浪費和使用可回收材料等。
+            <a id="close">closure</a>
+        </div>
+</div>
+
+<script>
+document.getElementById("open")
+.addEventListener("click", function (event) {
+    event.preventDefault();
+    document.getElementById("lessDiv").style.display = "none";
+    document.getElementById("fullDiv").style.display = "block";
+});
+</script>
+
+
+
+
+
+        <!-- <script>
+            document.getElementById("open")
+            .addEventListener("click", function () {
+                document.getElementById("lessDiv").style.display = "none";
+                document.getElementById("fullDiv").style.display = "block";
+            });
+        </script> -->
