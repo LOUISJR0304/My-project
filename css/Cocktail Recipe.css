@@ -80,15 +80,56 @@ header{
     font-size: 50px;
     font-weight: bolder;
     margin: 0 auto;
+    margin-bottom: 113px;
 }
-
-
-
-
-
 
 
 .recipe h1{
     font-size: 50px;
     font-weight: bolder;
+}
+
+.main{
+    display: flex;
+    margin-top: 207px;
+}
+
+
+
+nav{
+    margin-right: 181px;
+}
+
+nav li{
+    margin-bottom: 289px;
+}
+
+nav a{
+    display: block;
+    width: 340px;
+    height: 165px;
+    border-radius: 50px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    line-height: 165px;
+    /* position: absolute;
+    top: 500px;
+    left: 450px; */
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.recipe{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recipe ul{
+    width: 1200px;
+    display: flex;
+    align-content: space-around;
 }
