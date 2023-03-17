@@ -4,7 +4,8 @@ body{
     color: white;
     font-size: 25px;
     line-height: 1.6;
-    background-color: black;
+    color: black;
+    background-color: white;
     background-repeat: no-repeat;
 }
 
@@ -16,8 +17,9 @@ body{
 
 header{
     /* width: 1920px;*/
+    color: white;
     height: 150px;
-    /* background-color: black; */
+    background-color: black;
     margin-bottom: 21px;
 }
 
@@ -77,22 +79,100 @@ header{
 /* -------------------------main------------------------- */
 
 .main{
-    width: 600px;
+    width: 1200px;
+    /* height: 1714px; */
+    margin: 0 auto;
+    margin-top: 289px;
+    display: flex;
 }
 
+.photo{
+    width: 600px;
+    height: 559px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.photo img:last-child{
+    margin-left: 32px;
+    margin-top: 70px;
+}
+
+.text{
+    width: 600px;
+    padding-left: 30px;
+}
+
+.text h1{
+    font-size: 50px;
+    font-weight: bolder;
+    
+}
+
+.text p {
+    font-size: 20px;
+    width: 496px;
+    margin-top: 44px;
+    /* border-bottom: 1px solid black; */
+}
+
+.text p::before {
+    content: ''; 
+    display: block; 
+    position: absolute; 
+    top: 653px; 
+    right: 356px; 
+    width: 581px; 
+    height: 1px; 
+    background-color: black; 
+}
+
+.text p + p{
+    color: rgba(255, 4, 4, 1);
+}
+
+
+.text a{
+    display: block;
+    width: 379px;
+    height: 63px;
+    border-radius: 50px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    line-height: 63px;
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-top: 125px;
+    /* position: absolute;
+    top: 500px;
+    left: 450px; */
+    text-decoration: none;
+}
 
 /* -------------------------section------------------------- */
 
-
 .section{
-    width: 600px;
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 30px;
 }
 
+.section p {
+    font-size: 20px;
+}
 
 
 /* -------------------------bottom------------------------- */
 
 
 .bottom{
-    width: 1192px;
+    background-color: rgba(255, 234, 234, 1);
+}
+
+.bottom h1{
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
 }
