@@ -184,6 +184,8 @@ header{
   }
 
   .swiper-slide {
+
+    width: 1200px;
     text-align: center;
     font-size: 18px;
     background:  rgba(255, 234, 234, 1);
@@ -191,14 +193,42 @@ header{
     justify-content: center;
     align-items: center;
 
-    width: 1200px;
-    height: 533px;
+        height: 533px;
   }
 
   .swiper-slide img {
     display: block;
     max-lines: 30px;
-    width: 100%;
-    height: 100%;
+    /* width: 100%; */
+    width: 1200px;
+    /* height: 100%; */
+    /* height: 533px; */
     object-fit: cover;
+    margin: 0 auto;
+    margin-top: 88px;
+    margin-bottom: 350px;
   }
+
+  /* ---------最後尾巴---------- */
+
+footer img{
+    width: 100%;
+}
+
+/* ---------警告標語---------- */
+
+.warn{
+    height: 162px;
+    position: fixed;
+    bottom: 0;
+    z-index:1;
+}
+
+
+/* ---------hover---------- */
+
+
+.text a:hover{
+    color: white;
+    background-color: rgba(255, 4, 4, 1);
+}
