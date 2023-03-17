@@ -176,3 +176,29 @@ header{
     font-weight: bolder;
     text-align: center;
 }
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background:  rgba(255, 234, 234, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 1200px;
+    height: 533px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    max-lines: 30px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
