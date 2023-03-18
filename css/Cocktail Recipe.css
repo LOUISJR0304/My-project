@@ -70,16 +70,24 @@ header{
 /* ---------pho---------- */
 
 .pho{
+    width: 1920px;
+    height: 531px;
+    position: relative;
     background-image: url("../img/cocktail-background.png");
 }
 
+.pho img{
+    position: absolute;
+    top: 150px;
+    left: 770px;
+}
 
 /* ---------main---------- */
 
 .nav h1{
     font-size: 50px;
     font-weight: bolder;
-    margin: 0 auto;
+    text-align: center;
     margin-bottom: 113px;
 }
 
@@ -101,18 +109,22 @@ nav{
 }
 
 nav li{
-    margin-bottom: 289px;
+    margin-bottom: 83px;
+}
+
+nav li img{
+    margin-right: 40px;
 }
 
 nav a{
     display: block;
-    width: 340px;
-    height: 165px;
+    width: 350px;
+    height: 145px;
     border-radius: 50px;
     color: black;
     background-color: white;
     text-align: center;
-    line-height: 165px;
+    line-height: 145px;
     /* position: absolute;
     top: 500px;
     left: 450px; */
@@ -126,10 +138,44 @@ nav a{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 280px;
 }
 
 .recipe ul{
     width: 1200px;
     display: flex;
-    align-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.recipe img{
+    margin-right: 56px;
+    margin-top: 120px;
+}
+
+.recipe p{
+    text-align: center;
+}
+
+/* ---------最後尾巴---------- */
+
+footer img{
+    width: 100%;
+}
+
+/* ---------警告標語---------- */
+
+.warn{
+    height: 162px;
+    position: fixed;
+    bottom: 0;
+}
+
+
+/* ---------hover---------- */
+
+
+.nav a:hover{
+    color: white;
+    background-color: rgba(255, 4, 4, 1);
 }

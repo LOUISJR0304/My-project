@@ -1,10 +1,9 @@
 body{
 
     /* background-color: black; */
-    color: white;
     font-size: 25px;
     line-height: 1.6;
-    background-color: black;
+    /* background-color: black; */
     background-repeat: no-repeat;
 }
 
@@ -33,6 +32,7 @@ header{
     width: 63%;
     margin: 0 auto;
     color: white;
+    background-color: black;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -74,70 +74,68 @@ header{
 }
 
 
-/* ---------------- main --------------- */
-
-
+/* ---------------- main ---------------- */
 
 .main{
     width: 1200px;
     margin: 0 auto;
 }
 
-
-/* ---------------- video --------------- */
-
-
-.video{
-    position: relative;
-    padding-bottom: 56.25%;
-    width: 100%;
-    height: 0;
-}
-
-.video iframe{
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;    
-}
-
-
-/* ---------------- text --------------- */
-
-.text h1{
+.main h1{
     font-size: 50px;
     font-weight: bolder;
     text-align: center;
-    margin: 50px 0px;
+    margin-top: 50px;
+    margin-bottom: 140px;
 }
 
-.text p{
-    width: 893px;
-    margin: 0 auto;
-}
-
-
-/* ---------------- photo --------------- */
-
-.photo{
-    margin-bottom: 160px;
-}
-
-.photo ul{
-    /* width: 100%; */
+.main ul{
     display: flex;
-    margin: 0 auto;
-    margin-top: 118px;
-    margin-left: 213px;
+    flex-wrap: wrap;
+
 }
 
-.photo ul li{
-    margin-right: 84px;
-}
-
-.photo p{
+.main li{
     text-align: center;
+    margin-right: 15px;
+}
+
+.main ul li p{
+    color: rgba(255, 4, 4);
+}
+
+.main ul li p + p{
+    color: rgba(217, 217, 217);
+}
+
+
+/* ---------------- pho ---------------- */
+
+.pho{
+    position: relative;
+}
+
+.pho a{
+    display: block;
+    width: 385px;
+    height: 50px;
+    line-height: 50px;
+    background-color:  rgba(255, 4, 4);
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    top: 334px;
+    left: 0;
+    display: none;
+}
+
+
+
+
+/* ---------------- hover ---------------- */
+
+.main li:hover > .pho a{
+    display: block;
 }
 
 
