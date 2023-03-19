@@ -6,6 +6,7 @@ body{
     line-height: 1.6;
     background-image: url(../img/second-background.png);
     background-repeat: no-repeat;
+    font-family: 'Segoe UI';
 }
 
 
@@ -16,7 +17,7 @@ body{
 
 header{
     /* width: 1920px;*/
-    height: 150px;
+    height: 200px;
     /* background-color: black; */
     margin-bottom: 21px;
 }

@@ -5,6 +5,7 @@ body{
     line-height: 1.6;
     /* background-color: black; */
     background-repeat: no-repeat;
+    font-family: 'Segoe UI';
 }
 
 
@@ -14,9 +15,9 @@ body{
 /* ---------heard---------- */
 
 header{
-    /* width: 1920px;*/
-    height: 150px;
-    /* background-color: black; */
+    /* width: 1920px; */
+    height: 200px;
+    background-color: black;
     margin-bottom: 21px;
 }
 
@@ -30,9 +31,10 @@ header{
     /* height: 150px; */
     /* width: 1200px; */
     width: 63%;
+    /* height: 180px; */
     margin: 0 auto;
     color: white;
-    background-color: black;
+    /* background-color: black; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -40,6 +42,7 @@ header{
 
 .top ul{
     display: flex;
+    /* padding-bottom: 40px; */
     /* background-color: brown; */
 }
 
