@@ -107,6 +107,7 @@ header{
 .text{
     width: 600px;
     padding-left: 30px;
+    position: relative;
 }
 
 .text h1{
@@ -126,8 +127,8 @@ header{
     content: ''; 
     display: block; 
     position: absolute; 
-    top: 653px; 
-    right: 356px; 
+    top: 199px; 
+    right: 6px; 
     width: 581px; 
     height: 1px; 
     background-color: black; 
@@ -135,6 +136,14 @@ header{
 
 .text p + p{
     color: rgba(255, 4, 4, 1);
+    /* content: ''; 
+    display: block; 
+    position: absolute; 
+    top: 653px; 
+    right: 356px; 
+    width: 581px; 
+    height: 1px; 
+    background-color: black;  */
 }
 
 
@@ -154,6 +163,13 @@ header{
     top: 500px;
     left: 450px; */
     text-decoration: none;
+}
+
+.text img{
+    position: absolute;
+    top: 330px;
+    right: 220px;
+
 }
 
 /* -------------------------section------------------------- */
