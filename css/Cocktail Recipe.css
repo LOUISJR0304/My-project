@@ -72,8 +72,8 @@ header{
 
 /* ---------pho---------- */
 
-.pho{
-    /* width: 1920px; */
+/* .pho{
+    width: 1920px;
     height: 531px;
     position: relative;
     background-image: url("../img/cocktail-background.png");
@@ -83,7 +83,116 @@ header{
     position: absolute;
     top: 150px;
     left: 770px;
+} */
+
+/* ---------background---------- */
+
+
+.background{
+    width: 100%;
+    height: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
 }
+
+
+
+.one{
+    /* height: 100px; */
+    background-color: black;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-image: url(../img/cocktail/12\ of\ the\ world\'s\ most\ unusual\ cocktails\ _\ CNN.jfif);
+    background-size: cover;
+}
+
+.one img{
+    /* width: 100%; */
+    image-rendering: cover;
+}
+
+.two{
+    /* height: 100px; */
+    background-color: red;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-image: url(../img/cocktail/The\ Phoenix\ Cocktail\ -\ A\ Color\ Changing\ Shimmery\ Cocktail.jfif);
+    background-size: cover;
+}
+
+.two img{
+    width: 100%;
+}
+
+.three{
+    /* height: 100px; */
+    background-color: blue;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 6;
+    background-image: url(../img/cocktail/下載.jfif);
+    background-size: cover;
+}
+
+.three img{
+    width: 100%;
+}
+
+.four{
+    /* height: 100px; */
+    background-color: green;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    background-image: url(../img/cocktail/Thyme\ &\ Honey.jfif);
+    background-size: cover;
+}
+
+.five{
+    /* height: 100px; */
+    background-color: yellow;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    background-image: url(../img/cocktail/PUNCH\ _\ DuBoudreau\ Cocktail\ Cocktail\ Recipe.jfif);
+    background-size: cover;
+}
+
+.six{
+    /* height: 100px; */
+    background-color: brown;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    background-image: url(../img/cocktail/Blood\ Orange\ Paloma\ \(made\ with\ agave\ &\ refined\ sugar\ free!\).png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.seven{
+    /* height: 100px; */
+    background-color: slategrey;
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-image: url(../img/cocktail/These\ Hauntingly\ Delicious\ Halloween\ Cocktails\ Will\ Complete\ Any\ Holiday\ Party.jfif);
+    background-position: center;
+    background-size: cover;
+}
+
 
 /* ---------main---------- */
 
