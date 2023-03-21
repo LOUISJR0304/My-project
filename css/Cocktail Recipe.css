@@ -88,6 +88,7 @@ header{
 /* ---------background---------- */
 
 
+
 .background{
     width: 100%;
     height: 1000px;
@@ -108,12 +109,9 @@ header{
     grid-row-end: 4;
     background-image: url(../img/cocktail/12\ of\ the\ world\'s\ most\ unusual\ cocktails\ _\ CNN.jfif);
     background-size: cover;
+    /* outline: 10px solid  rgba(255, 4, 4); */
 }
 
-.one img{
-    /* width: 100%; */
-    image-rendering: cover;
-}
 
 .two{
     /* height: 100px; */
@@ -124,11 +122,9 @@ header{
     grid-row-end: 4;
     background-image: url(../img/cocktail/The\ Phoenix\ Cocktail\ -\ A\ Color\ Changing\ Shimmery\ Cocktail.jfif);
     background-size: cover;
+    /* outline: 10px solid  rgba(255, 4, 4); */
 }
 
-.two img{
-    width: 100%;
-}
 
 .three{
     /* height: 100px; */
@@ -136,13 +132,10 @@ header{
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 1;
-    grid-row-end: 6;
+    grid-row-end: 3;
     background-image: url(../img/cocktail/下載.jfif);
-    background-size: cover;
-}
-
-.three img{
-    width: 100%;
+    background-size: top;
+    /* outline: 10px solid  rgba(255, 4, 4); */
 }
 
 .four{
@@ -154,6 +147,7 @@ header{
     grid-row-end: 6;
     background-image: url(../img/cocktail/Thyme\ &\ Honey.jfif);
     background-size: cover;
+    /* outline: 10px solid  rgba(255, 4, 4); */
 }
 
 .five{
@@ -165,6 +159,7 @@ header{
     grid-row-end: 6;
     background-image: url(../img/cocktail/PUNCH\ _\ DuBoudreau\ Cocktail\ Cocktail\ Recipe.jfif);
     background-size: cover;
+    /* outline: 10px solid  rgba(255, 4, 4); */
 }
 
 .six{
@@ -178,6 +173,7 @@ header{
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
+    /* outline: 10px solid  rgba(255, 4, 4); */
     
 }
 
@@ -191,8 +187,19 @@ header{
     background-image: url(../img/cocktail/These\ Hauntingly\ Delicious\ Halloween\ Cocktails\ Will\ Complete\ Any\ Holiday\ Party.jfif);
     background-position: center;
     background-size: cover;
+    /* outline: 10px solid  rgba(255, 4, 4); */
 }
 
+.eight{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 6;
+    background-image: url(../img/cocktail/\'Red\ Treasure\'\ Poster\ by\ ACR\ ACR\ _\ Displate\ \(1\).jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* outline: 10px solid  rgba(255, 4, 4); */
+}
 
 /* ---------main---------- */
 
@@ -287,6 +294,7 @@ footer img{
 
 .warn{
     height: 162px;
+    /* width: 100%; */
     position: fixed;
     bottom: 0;
 }
