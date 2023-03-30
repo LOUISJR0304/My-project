@@ -73,13 +73,17 @@
     <img src="img/aboutus-glass.png" alt="">
     <div class="text">
         <h1>ABOUT US</h1>
-        <p>
+        <div class="words">
+            <p>
             調酒是一門精緻的藝術，它結合了化學、烹飪和美學等多個領域的知識，通過巧妙的調配和裝飾技巧，創造出了各種豐富多樣的雞尾酒。
             <br>在調酒的過程中，需要根據顧客的口味和喜好，精確地選擇和混合各種酒類、果汁、飲料和調味品，從而製作出口感鮮美、色彩艷麗、香氣撲鼻的雞尾酒，讓人們在品嚐中享受到無窮的樂趣。
             <br>我們希望可以讓更多的人了解調酒的魅力以及他多的藝術性，讓他成為像品茶依樣適合大眾的休閒活動。註:但是要先成年喔!
-        </p>
+            </p>
+        </div>
     </div>
-    <a href="#">MORE</a>
+    <div class="btn">
+    <button>MORE</button>
+    </div>
 </div>
 
 <!------------------------------------------------ section -------------------------------------------------->
@@ -134,10 +138,28 @@
 <!------------------------------------------------ 警告標語 -------------------------------------------------->
 
     <div class="warn">
-        <img src="img/警告標語.png" alt="">
+        <img src="img/index/Component 5.png" alt="">
         </div>
 
         
 
+
+    <!-- <script>
+        let btn = document.getElementsByClassName("btn")[0];
+
+        btn.addEventListener("click",function(){
+            let words = document.getElementsByClassName("words")[0];
+
+            // words.style.height = "height 232px";
+
+            if(words.classList.contains("+height")){
+                words.classList.remove("+height");
+                words.style.height = "232px";
+            }else{
+                words.classList.add("+height");
+                words.style.height = "414px";
+            }
+        });
+    </script> -->
 </body>
 </html>

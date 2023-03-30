@@ -16,8 +16,9 @@ body{
 /* ---------heard---------- */
 
 header{
+    /* width: 100%; */
     /* width: 1920px;*/
-    height: 200px;
+    /* height: 200px; */
     /* background-color: black; */
 }
 
@@ -29,8 +30,8 @@ header{
 
 .top{
     /* height: 150px; */
-    /* width: 1200px; */
-    width: 63%;
+    width: 1200px;
+    /* width: 63%; */
     margin: 0 auto;
     color: white;
     display: flex;
@@ -82,8 +83,9 @@ header{
 .slogan img{
     display: block;
     margin: 0 auto;
-    width: 70%;
+    width: 45%;
     position: absolute;
+    margin-left: 300px;
     top: 0;
     left: -1350px;
     animation: slide-in 1s forwards;
@@ -91,7 +93,7 @@ header{
 
 @keyframes slide-in{
     from {
-        left: -1340px;
+        left: -1350px;
     }
     to {
         left: 0;
@@ -107,7 +109,6 @@ header{
     font-weight: bold;
     text-decoration: none;
     display: block;
-    color: bla;
     background-color: white;
     color: black;
     margin: 0 auto;
@@ -117,11 +118,16 @@ header{
     line-height: 97px;
     border-radius: 50px;
     transition: .5s;
-    margin-top: 800px;
+    margin-top: 600px;
 
 }
 
 /* ---------中間第一段.edition---------- */
+
+
+.line{
+    outline: 2px solid black;
+}
 
 .edition{
     line-height: normal;
@@ -207,6 +213,10 @@ header{
     /* width: 110%; */
     height: 100%;  /*突然就搞定照片的高度問題!!!*/
     /* margin-left: 23px; */
+}
+
+.cocktail ul li img:hover{
+    background-color: #fff;
 }
 
 /* .cocktail ul li:nth-child(2) img{
@@ -432,11 +442,16 @@ footer img{
 /* ---------警告標語---------- */
 
 .warn{
-    height: 162px;
     position: fixed;
     bottom: 0;
 }
 
+
+.warn img{
+    width: 100%;
+    display: block;
+    height: auto
+}
 
 
 

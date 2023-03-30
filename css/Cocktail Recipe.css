@@ -24,8 +24,8 @@ header{
 
 .top{
     /* height: 150px; */
-    /* width: 1200px; */
-    width: 63%;
+    width: 1200px;
+    /* width: 63%; */
     margin: 0 auto;
     color: white;
     display: flex;
@@ -231,13 +231,13 @@ nav li{
     margin-bottom: 83px;
 }
 
-nav li img{
+/* nav li img{
     margin-right: 40px;
 }
 
 nav li img + img{
     display: none;
-}
+} */
 
 nav a{
     display: block;
@@ -246,14 +246,20 @@ nav a{
     border-radius: 50px;
     color: black;
     background-color: white;
-    text-align: center;
+    text-align: right;
     line-height: 145px;
+    /* padding-left: 10px; */
     /* position: absolute;
     top: 500px;
     left: 450px; */
     text-decoration: none;
     font-size: 50px;
     font-weight: bolder;
+    background-image: url(../img/cocktail/Mask\ group.png);
+    /* background-size: cover; */
+    background-size: 25%;
+    background-repeat: no-repeat;
+    background-position: 15% center;
 }
 
 /* ---------recipe---------- */

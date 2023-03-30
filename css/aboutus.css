@@ -27,8 +27,8 @@ header{
 
 .top{
     /* height: 150px; */
-    /* width: 1200px; */
-    width: 63%;
+    width: 1200px;
+    /* width: 63%; */
     margin: 0 auto;
     color: white;
     display: flex;
@@ -106,7 +106,7 @@ header{
     width: 665px;
 }
 
-.text p {
+.words p {
     /* width: 665px; */
     margin-top: 36px;
     overflow: hidden;
@@ -115,7 +115,9 @@ header{
     -webkit-line-clamp: 7;
 }
 
-.main a{
+
+
+.btn button{
     display: block;
     width: 123px;
     height: 70px;
@@ -125,7 +127,7 @@ header{
     text-align: center;
     line-height: 70px;
     position: absolute;
-    top: 636px;
+    top: 700px;
     right: 80px;
     text-decoration: none;
 }
@@ -184,10 +186,12 @@ h1{
     
 }
 
+
 .drink p{
     width: 617px;
     margin: 0 auto;
 }
+
 
 .drink img:hover{
     animation: shake 0.5s ease-in-out;
@@ -212,12 +216,16 @@ footer img{
 /* ---------警告標語---------- */
 
 .warn{
-    height: 162px;
     position: fixed;
     bottom: 0;
 }
 
 
+.warn img{
+    width: 100%;
+    display: block;
+    height: auto
+}
 /* ---------hover---------- */
 
 
