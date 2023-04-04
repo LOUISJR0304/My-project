@@ -1,11 +1,9 @@
-
 body{
     background-color: black;
     font-size: 20px;
     color: white;
     font-family: 'Segoe UI';
 }
-
 
 /* ---------heard---------- */
 
@@ -70,21 +68,6 @@ header{
     display: block;
 }
 
-/* ---------pho---------- */
-
-/* .pho{
-    width: 1920px;
-    height: 531px;
-    position: relative;
-    background-image: url("../img/cocktail-background.png");
-}
-
-.pho img{
-    position: absolute;
-    top: 150px;
-    left: 770px;
-} */
-
 /* ---------background---------- */
 
 
@@ -96,6 +79,7 @@ header{
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 10px;
+    margin-bottom: 100px;
 }
 
 
@@ -201,79 +185,105 @@ header{
     /* outline: 10px solid  rgba(255, 4, 4); */
 }
 
-/* ---------main---------- */
+/* ---------nav---------- */
 
-.nav h1{
-    font-size: 50px;
-    font-weight: bolder;
-    text-align: center;
-    margin-bottom: 113px;
+
+.in{
+    left: 0px;
+    transition:  left 0.75s ease-in-out;;
 }
-
-
-.recipe h1{
-    font-size: 50px;
-    font-weight: bolder;
-}
-
-.main{
-    display: flex;
-    margin-top: 207px;
-}
-
-
 
 nav{
-    margin-right: 181px;
+    display: flex;
+    margin-top: 10px;
+    position: absolute;
+    left: -200px;
+    transition:  left 0.75s ease-in-out;;
 }
 
-nav li{
-    margin-bottom: 83px;
+
+.open{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    outline: 1px solid black;
+    background-image: url("../img/cocktail/下載.jpg");
+    background-size: cover;
+    margin-left: 5px;
+    /* margin-top: 100px; */
 }
 
-/* nav li img{
-    margin-right: 40px;
-}
-
-nav li img + img{
-    display: none;
-} */
-
-nav a{
+.btn{
     display: block;
-    width: 350px;
-    height: 145px;
-    border-radius: 50px;
-    color: black;
-    background-color: white;
-    text-align: right;
-    line-height: 145px;
-    /* padding-left: 10px; */
-    /* position: absolute;
-    top: 500px;
-    left: 450px; */
     text-decoration: none;
-    font-size: 50px;
+    color: black;
+    font-size: 20px;
     font-weight: bolder;
-    background-image: url(../img/cocktail/Mask\ group.png);
-    /* background-size: cover; */
-    background-size: 25%;
-    background-repeat: no-repeat;
-    background-position: 15% center;
+    text-shadow: 4px 6px 4px #c3c3c3, 1px 2px 4px #000000;
 }
+
+.btn:hover {
+    cursor: pointer;
+  }
+
+.sky{
+    position: relative;
+}
+
+.beside li{
+    width: 200px;
+    height: 100px;
+    margin-bottom: 10px;
+    outline: 1px solid black;
+    border-radius: 5%;
+    background-color: white;
+}
+
+.beside li a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    text-align: right;
+    line-height: 100px;
+    font-size: 25px;
+    padding-right: 10px;
+    background-image: url("../img/cocktail/Mask\ group.png");
+    background-size: 35%;
+    background-repeat: no-repeat;
+    background-position: 10% center;
+}
+
+.beside li:nth-child(4) a{
+    text-align: center;
+    padding: 0;
+    padding-left: 50px;
+}
+
+.beside li:nth-child(5) a{
+    text-align: center;
+    padding: 0;
+    padding-left: 50px;
+}
+
 
 /* ---------recipe---------- */
 
 .recipe{
-    width: 1200px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 280px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-left: 100px;
+    /* margin-left: 56px; */
+    /* margin-bottom: 280px; */
 }
 
 .recipe ul{
-    width: 1200px;
+    width: 63%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -287,8 +297,34 @@ nav a{
 }
 
 .recipe p{
+    width: 300px;
     text-align: center;
 }
+
+.nothing h1{
+    width: 100%;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+/* ---------屁股---------- */
+
+.numb{
+    clear: both;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.numb a{
+    text-decoration: none;
+    margin-left: 10px;
+
+}
+
+
 
 /* ---------最後尾巴---------- */
 
@@ -299,21 +335,13 @@ footer img{
 /* ---------警告標語---------- */
 
 .warn{
-    height: 162px;
-    /* width: 100%; */
     position: fixed;
     bottom: 0;
 }
 
 
-/* ---------hover---------- */
-
-
-.nav a:hover{
-    color: white;
-    background-color: rgba(255, 4, 4, 1);
-}
-
-/* .nav a:hover > li img{
+.warn img{
+    width: 100%;
     display: block;
-} */
+    height: auto
+}

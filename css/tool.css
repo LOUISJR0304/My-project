@@ -15,10 +15,11 @@ body{
 /* ---------heard---------- */
 
 header{
-    /* width: 1920px; */
-    height: 200px;
+    /* width: 100%; */
+    /* width: 1920px;*/
+    /* height: 200px; */
+    font-size: 20px;
     background-color: black;
-    margin-bottom: 21px;
 }
 
 .top img{
@@ -29,12 +30,10 @@ header{
 
 .top{
     /* height: 150px; */
-    /* width: 1200px; */
-    width: 63%;
-    /* height: 180px; */
+    width: 1200px;
+    /* width: 63%; */
     margin: 0 auto;
     color: white;
-    /* background-color: black; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -42,7 +41,6 @@ header{
 
 .top ul{
     display: flex;
-    /* padding-bottom: 40px; */
     /* background-color: brown; */
 }
 
@@ -50,7 +48,6 @@ header{
     margin-right: 60px;
     position: relative;
     display: flex;
-    font-size: 20px;
 
 }
 
@@ -72,9 +69,6 @@ header{
     /* text-align: center; */
 }
 
-.top li:hover > ol{
-    display: block;
-}
 
 
 /* ---------------- main ---------------- */
@@ -118,6 +112,7 @@ header{
 
 .pho{
     position: relative;
+    overflow: hidden;
 }
 
 .pho a{
@@ -135,6 +130,14 @@ header{
 }
 
 
+.pic:hover > img{
+    transform: scale(1.1);
+}
+
+.pic img{
+    transition: transform 0.3s ease-out;
+}
+
 
 
 /* ---------------- hover ---------------- */
@@ -143,6 +146,9 @@ header{
     display: block;
 }
 
+.top li:hover > ol{
+    display: block;
+}
 
 /* ---------最後尾巴---------- */
 

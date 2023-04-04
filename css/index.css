@@ -486,3 +486,7 @@ footer img{
 .top li:hover > ol{
     display: block;
 }
+
+.line:hover{
+    box-shadow: 0 0 0 4px #000;
+}
