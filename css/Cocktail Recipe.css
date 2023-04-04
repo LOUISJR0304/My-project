@@ -277,13 +277,13 @@ nav{
     align-items: center;
     margin: 0 auto;
     margin-top: 50px;
-    padding-left: 100px;
+    /* padding-left: 100px; */
     /* margin-left: 56px; */
     /* margin-bottom: 280px; */
 }
 
 .recipe ul{
-    width: 63%;
+    width: 57%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
