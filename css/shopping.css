@@ -240,10 +240,15 @@ footer img{
 /* ---------警告標語---------- */
 
 .warn{
-    height: 162px;
     position: fixed;
     bottom: 0;
-    z-index:1;
+}
+
+
+.warn img{
+    width: 100%;
+    display: block;
+    height: auto
 }
 
 

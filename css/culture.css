@@ -366,3 +366,45 @@ footer img{
 .top li:hover > ol{
     display: block;
 }
+
+
+/* ------------------------------------------------rwd -------------------------------------------------------*/
+
+@media screen and (max-width: 414px){
+
+    body{
+        font-size: 12px;
+    }
+
+    .top{
+        display: none;
+    }
+
+    .culture h1 {
+        font-size: 25px;
+    }
+
+    .btn a {
+        width: 50px;
+        height: 20px;
+        line-height: 20px;
+    }
+
+    .video iframe {
+        height: 100%;
+    }
+
+    .skills h1 {
+        font-size: 25px;
+    }
+
+    .skills h1::after {
+        margin-left: 0px;
+        top: 15px;
+    }
+
+    .skills h1::before {
+        margin-left: 0px;
+        top: 15px;
+    }
+}

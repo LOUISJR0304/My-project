@@ -321,6 +321,7 @@ nav{
 .numb a{
     text-decoration: none;
     margin-left: 10px;
+    color: white;
 
 }
 
@@ -344,4 +345,79 @@ footer img{
     width: 100%;
     display: block;
     height: auto
+}
+
+
+
+
+/* ------------------------------------------------rwd -------------------------------------------------------*/
+
+@media screen and (max-width: 414px){
+
+    .top{
+        display: none;
+    }
+
+    .background{
+        width: 100%;
+        height: 200px;
+        margin-bottom: 30px;
+    }
+
+    .btn {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    font-weight: bolder;
+    text-shadow: 4px 6px 4px #c3c3c3, 1px 2px 4px #000000;
+    }
+
+    .open {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 50px;
+        outline: 1px solid black;
+        background-image: url(../img/cocktail/下載.jpg);
+        background-size: cover;
+        margin-left: 5px;
+    }
+
+    .nothing h1 {
+    font-size: 25px;
+    }
+
+    nav{
+            left: -100px;
+    }
+
+    .beside li a {
+        font-size: 10px;
+        line-height: 40px;
+    }
+
+    .beside li {
+        width: 100px;
+        height: 40px;
+    }
+
+    .recipe ul{
+        margin-right: 50px;
+    }
+
+    .recipe img{
+        width: 176px;
+    }
+
+    .recipe p {
+        font-size: 12px;
+        width: 176px;
+        text-align: center;
+    }
+
+    .numb{
+            font-size: 15px;
+    }
 }
