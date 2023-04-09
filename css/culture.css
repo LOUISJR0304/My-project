@@ -199,7 +199,7 @@ header{
     /* font-weight: bolder; */
     font-size: 50px;
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom: 54px;
 }
 
 .skills h1::after{
@@ -224,19 +224,7 @@ header{
     left: 0;
 }
 
-.skill{
-    width: 100%;
-    /* margin-left: 50px; */
-}
-
-
-.skill li{
-    color: black;
-    line-height: 1.4;
-    display: flex;
-}
-
-.skill h2{
+.skills h2{
     text-align: center;
     font-size: 30px;
     font-weight: bolder;
@@ -244,7 +232,7 @@ header{
 }
 
 
-.skill h3{
+.skills h3{
     text-align: center;
     font-size: 50px;
     font-style: italic;
@@ -253,31 +241,55 @@ header{
     margin-bottom: 7px;
 }
 
-.big{
-    /* width: 1200px; */
-    /* margin: 0 auto; */
-    width: 100%;
-    color: black;
-    line-height: 1.4;
-    display: flex;
-    margin-bottom: 125px;
-}
 
-.big h2{
-    text-align: center;
-}
-
-.big h3{
-    text-align: center;
-}
-
-/* .big p {
-    width: 990px;
-} */
-
-.word{
+.skills p{
     width: 57%;
-    margin-left: 25rem;
+    margin: 0 auto;
+    /* margin-left: 458px; */
+    /* margin-left: 240px; */
+    margin-bottom: 154px;
+}
+
+.skills ul li:first-child{
+    background-repeat: no-repeat;
+    background-position: 100% 10%;
+    background-image: url("../img/Infusion.png");
+}
+
+.skills ul li:nth-child(2){
+    background-repeat: no-repeat;
+    background-position: 0% 10%;
+    background-image: url("../img/Fat-Washing.png");
+}
+
+.skills ul li:nth-child(3){
+    background-repeat: no-repeat;
+    background-position: 100% 10%;
+    background-image: url("../img/Barrel\ Aged.png");
+}
+
+.skills ul li:nth-child(4){
+    background-repeat: no-repeat;
+    background-position: 0% 10%;
+    background-image: url("../img/Clarification.png");
+}
+
+.skills ul li:nth-child(5){
+    background-repeat: no-repeat;
+    background-position: 100% 10%;
+    background-image: url("../img/fermentation.png");
+}
+
+.skills ul li:nth-child(6){
+    background-repeat: no-repeat;
+    background-position: 0% 10%;
+    background-image: url("../img/Smoking.png");
+}
+
+.skills ul li:last-child{
+    background-repeat: no-repeat;
+    background-position: 100% 10%;
+    background-image: url("../img/c870x524-removebg-preview\ 1.png");
 }
 
 .photo1{
@@ -285,51 +297,53 @@ header{
 }
 
 
-.word2{
-    width: 57%;
-}
-
 .photo2{
     margin-left: 9rem;
 }
 
-.skill ul li:nth-child(5) h3 {
+.skills ul li:nth-child(5) h3 {
     color: white;
 }
 
-.skill ul li:nth-child(5) p {
+.skills ul li:nth-child(5) p {
+    color: white;
+    margin: 0 auto;
+    margin-bottom: 154px;
+}
+
+.skills ul li:nth-child(5) h2 {
     color: white;
 }
 
-.skill ul li:nth-child(5) h2 {
+.skills ul li:nth-child(6) h3{
     color: white;
 }
 
-.skill ul li:nth-child(6) h3{
+.skills ul li:nth-child(6) p {
+    color: white;
+    margin: 0 auto;
+    margin-bottom: 154px;
+}
+
+.skills ul li:nth-child(6) h2{
     color: white;
 }
 
-.skill ul li:nth-child(6) p {
+.skills ul li:nth-child(7) h3{
     color: white;
 }
 
-.skill ul li:nth-child(6) h2{
+.skills ul li:nth-child(7) p {
+    color: white;
+    margin: 0 auto;
+    margin-bottom: 154px;
+}
+
+.skills ul li:nth-child(7) h2{
     color: white;
 }
 
-.skill ul li:nth-child(7) h3{
-    color: white;
-}
-
-.skill ul li:nth-child(7) p {
-    color: white;
-}
-
-.skill ul li:nth-child(7) h2{
-    color: white;
-}
-
-.skill ul li:nth-child(7) img{
+.skills ul li:nth-child(7) img{
     width: 235px;
 }
 
@@ -374,6 +388,9 @@ footer img{
 
     body{
         font-size: 12px;
+        background-image: url();
+        /* background-color: black; */
+
     }
 
     .top{
@@ -384,11 +401,6 @@ footer img{
         font-size: 25px;
     }
 
-    .btn a {
-        width: 50px;
-        height: 20px;
-        line-height: 20px;
-    }
 
     .video iframe {
         height: 100%;
@@ -407,4 +419,49 @@ footer img{
         margin-left: 0px;
         top: 15px;
     }
+
+    .skills h2 {
+        font-size: 25px;
+    }
+
+    .skills h3{
+        font-size: 25px;
+    }
+
+    .skills ul li {
+        background-size: 100px;
+    }
+
+    .skills ul li:first-child{
+        background-size: 80px;
+        background-position: 100% 100%;
+    }
+
+    .skills ul li:nth-child(2){
+        background-position: 0% 100%;
+    }
+
+    .skills ul li:nth-child(3){
+        background-position: 100% 100%;
+    }
+
+    .skills ul li:nth-child(4){
+        background-position: 0% 100%;
+    }
+
+    .skills ul li:nth-child(5){
+        background-size: 80px;
+        background-position: 100% 100%;
+    }
+
+    .skills ul li:nth-child(6){
+        background-size: 90px;
+        background-position: 0% 100%;
+    }
+
+    .skills ul li:nth-child(7){
+        background-size: 90px;
+        background-position: 100% 100%;
+    }
+
 }
