@@ -145,7 +145,7 @@ header{
     font-size: 20px;
     /* width: 100%; */
     /* width: 1920px;*/
-    /* height: 200px; */
+    height: 200px;
     /* background-color: black; */
 }
 
@@ -201,7 +201,7 @@ header{
 .culture{
     width: 63%;
     margin: 0 auto;
-    padding-top:125PX;
+    padding-top: 100PX;
     padding-bottom: 50px;
     position: relative;
 }
@@ -526,7 +526,7 @@ footer img{
   #scroll-to-top {
     display: none;
     position: fixed;
-    bottom: 80px;
+    bottom: 200px;
     right: 20px;
     z-index: 99;
     /* font-size: 16px; */
