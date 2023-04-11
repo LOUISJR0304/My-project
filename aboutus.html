@@ -11,6 +11,55 @@
 </head>
 <body>
 
+    <!------------------- rwb漢寶線 ---------------->
+    <div class="ham">
+        <span class="bar1"></span>
+        <span class="bar2"></span>
+        <span class="bar3"></span>
+    </div>
+    
+    <nav id="menu">
+    
+        <ul class="menu-list">
+            <li><a href="culture.html">調酒文化</a></li>
+            <li><a href="aboutus.html">關於我們</a></li>
+            <li class="aaa"><a href="#">調酒器具 <img src="img/Group2.png" alt=""></a>
+                    <li class="hidden">
+                        <a href="tool.html">精選商品</a>
+                    </li>
+            </li>
+            <li class="bbb"><a href="#">酒譜專區 <img src="img/Group2.png" alt=""></a>
+                    <li class="hidden2">
+                        <a href="Cocktail Recipe.html">本週熱門</a>
+                    </li>
+                    <li class="hidden2">
+                        <a href="Cocktail Recipe.html">居家調酒</a>
+                    </li>
+                    <li class="hidden2">
+                        <a href="Cocktail Recipe.html">專業調酒</a>
+                    </li>
+            </li>
+            <li class="ccc"><a href="#">課程介紹 <img src="img/Group2.png" alt=""></a>
+                    <li class="hidden3">
+                        <a href="lesson.html">入門課程</a>
+                    </li>
+                    <li class="hidden3">
+                        <a href="lesson.html">專業課程</a>
+                    </li>
+                    <li class="hidden3">
+                        <a href="lesson.html">大師課程</a>
+                    </li>
+            </li>
+            <li><a href="#">會員中心</a>
+        </ul>
+    </nav>
+
+    <div class="salesmam">
+        <a href="index.html"><img src="img/Group 66.png" alt=""></a>
+    </div>
+
+<!------------------- 選單 ---------------->
+
     <header>
         <span class="top">
             <a href="index.html" class="logo-link">
@@ -132,6 +181,11 @@
 
 </div>
 
+<button id="scroll-to-top">
+    <img class="first-pic" src="img/Group.png" alt="">
+    <img class="second-pic" src="img/Group3.png" alt="">
+</button>
+
 <!------------------------------------------------ 最後尾巴 -------------------------------------------------->
 
     <footer>
@@ -149,22 +203,68 @@
         
 
 
-    <!-- <script>
-        let btn = document.getElementsByClassName("btn")[0];
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-        btn.addEventListener("click",function(){
-            let words = document.getElementsByClassName("words")[0];
+<script>
+    $(function(){
+        let is_height = 0;
 
-            // words.style.height = "height 232px";
-
-            if(words.classList.contains("+height")){
-                words.classList.remove("+height");
-                words.style.height = "232px";
+        $(".btn").click(function(){
+            // console.log(222)
+             if(is_height == 0){
+                $(".words").find("p").animate({height:"400px"},1000)
+                is_height = 1;
             }else{
-                words.classList.add("+height");
-                words.style.height = "414px";
-            }
+                $(".words").find("p").animate({height:"280px"},1000)
+                is_height = 0;
+            }   
         });
-    </script> -->
+    });
+</script>
+
+<script>
+    $(".ham").click(function(){
+        $(this).toggleClass("active");
+        $(".menu-list").toggleClass("animate");
+        
+    })
+
+    $(".aaa").click(function(){
+        console.log(222)
+        $(".hidden").toggleClass("woo");
+    })
+    $(".bbb").click(function(){
+        console.log(222)
+        $(".hidden2").toggleClass("woo");
+    })
+
+    $(".ccc").click(function(){
+        console.log(222)
+        $(".hidden3").toggleClass("woo");
+
+    })
+
+</script>
+
+<script>
+    var scrollToTopBtn = document.getElementById("scroll-to-top");
+
+// 當網頁滾動時，判斷是否顯示返回頂部按鈕
+window.onscroll = function() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    scrollToTopBtn.style.display = "block";
+  } else {
+    scrollToTopBtn.style.display = "none";
+  }
+}
+
+// 當用戶點擊返回頂部按鈕時，網頁平滑滾動到頂部
+scrollToTopBtn.addEventListener("click", function() {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+});
+</script>
 </body>
 </html>

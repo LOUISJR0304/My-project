@@ -13,54 +13,54 @@
 </head>
 <body>
 
-    <!------------------- rwb漢寶線 ---------------->
+    <!------------------- rwb漢堡線 ---------------->
+    <div class="ham">
+        <span class="bar1"></span>
+        <span class="bar2"></span>
+        <span class="bar3"></span>
+    </div>
+    
     <nav id="menu">
-        <div class="container">
-            <div class="toggle"></div>
-        </div>
     
         <ul class="menu-list">
-            <li class="hidden"><a href="#">調酒文化</a></li>
-            <li class="hidden"><a href="#">關於我們</a></li>
-            <li class="hidden"><a href="#">調酒器具</a>
-                <ol>
-                    <li>
+            <li><a href="culture.html">調酒文化</a></li>
+            <li><a href="aboutus.html">關於我們</a></li>
+            <li class="aaa"><a href="#">調酒器具 <img src="img/Group2.png" alt=""></a>
+                    <li class="hidden">
                         <a href="tool.html">精選商品</a>
                     </li>
-                </ol>
             </li>
-            <li class="hidden"><a href="#">酒譜專區</a>
-                <ol>
-                    <li>
+            <li class="bbb"><a href="#">酒譜專區 <img src="img/Group2.png" alt=""></a>
+                    <li class="hidden2">
                         <a href="Cocktail Recipe.html">本週熱門</a>
                     </li>
-                    <li>
+                    <li class="hidden2">
                         <a href="Cocktail Recipe.html">居家調酒</a>
                     </li>
-                    <li>
+                    <li class="hidden2">
                         <a href="Cocktail Recipe.html">專業調酒</a>
                     </li>
-                </ol>
             </li>
-            <li class="hidden"><a href="#">課程介紹</a>
-                <ol>
-                    <li>
+            <li class="ccc"><a href="#">課程介紹 <img src="img/Group2.png" alt=""></a>
+                    <li class="hidden3">
                         <a href="lesson.html">入門課程</a>
                     </li>
-                    <li>
+                    <li class="hidden3">
                         <a href="lesson.html">專業課程</a>
                     </li>
-                    <li>
+                    <li class="hidden3">
                         <a href="lesson.html">大師課程</a>
                     </li>
-                </ol>
             </li>
-            <li class="hidden"><a href="#">會員中心</a>
+            <li><a href="#">會員中心</a>
         </ul>
     </nav>
-    
 
-    <!------------------- 選單 ---------------->
+    <div class="salesmam">
+        <a href="index.html"><img src="img/Group 66.png" alt=""></a>
+    </div>
+
+<!------------------- 選單 ---------------->
     <header>
         <span class="top">
             <a href="index.html" class="logo-link">
@@ -114,7 +114,8 @@
     </div>
     <!------------------------------------------------ 中間段第一段-------------------------------------------------->
     <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-        <content class="edition">
+        
+        <content class="edition wrapper-out" >
             <div class="title">
                 <h1>精選酒譜</h1>
                 <h2>SPEACIAL EDITION</h2>
@@ -155,7 +156,7 @@
 <!------------------------------------------------ 中間第二段 -------------------------------------------------->
     <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
 
-        <content class="products">
+        <content class="products wrapper-out">
             <div class="title2">
                 <h1>熱門商品</h1>
                 <h2>Popular Products</h2>
@@ -168,14 +169,14 @@
             <div class="item">
                 <ul>
                     <li>
-                        <div class="line">
+                        <div class="line price">
                         <img src="img/index/eight.png" alt="">
                         <p>調酒器材 8 件組</p>
                         <P>NT$1880</P>
                         </div>
                     </li>
                     <li>
-                        <div class="line">
+                        <div class="line price">
                         <img src="img/index/Group 150.png" alt="">
                         <p>三件式雪克杯</p>
                         <P>NT$590</P>
@@ -198,7 +199,7 @@
 <!------------------------------------------------ 中間第三段 -------------------------------------------------->
     <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
 
-        <content class="lesson">
+        <content class="lesson wrapper-out">
             <div class="title3">
                 <h1>準備好動手開始做了嗎?</h1>
                 <h2>Just Do It !</h2>
@@ -224,7 +225,8 @@
                     </li>
                     <li>
                         <div class="line">
-                        <img src="img/index/Free Photo _ Bar tender pours cocktail from cocktail shaker into martini glass 1.png" alt="">
+                        <img id="first" src="img/index/Free Photo _ Bar tender pours cocktail from cocktail shaker into martini glass 1.png" alt="">
+                        <img id="second" src="img/Mask group.png" alt="">
                         <p>大師課程</p>
                         </div>
                     </li>
@@ -232,7 +234,12 @@
             </div>
         </content>
 
-    </div>>
+    </div>
+
+    <button id="scroll-to-top">
+        <img class="first-pic" src="img/Group.png" alt="">
+        <img class="second-pic" src="img/Group3.png" alt="">
+    </button>
     
 
 <!------------------------------------------------ 最後尾巴 -------------------------------------------------->
@@ -258,15 +265,53 @@
 
     AOS.init();
 
-    $(function(){
-        $(".toggle").click(function(){
-            $("#menu").toggleClass("expanded");
-            $(".container").toggleClass("open");
-            $(".toggle").toggleClass("open");
-            $("li").toggleClass("hidden")
-        });
-    });
-
   </script>
+
+<script>
+    $(".ham").click(function(){
+        $(this).toggleClass("active");
+        $(".menu-list").toggleClass("animate");
+        
+    })
+
+    $(".aaa").click(function(){
+        console.log(222)
+        $(".hidden").toggleClass("woo");
+    })
+    $(".bbb").click(function(){
+        console.log(222)
+        $(".hidden2").toggleClass("woo");
+    })
+
+    $(".ccc").click(function(){
+        console.log(222)
+        $(".hidden3").toggleClass("woo");
+
+    })
+
+</script>
+
+<script>
+    var scrollToTopBtn = document.getElementById("scroll-to-top");
+
+// 當網頁滾動時，判斷是否顯示返回頂部按鈕
+window.onscroll = function() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    scrollToTopBtn.style.display = "block";
+  } else {
+    scrollToTopBtn.style.display = "none";
+  }
+}
+
+// 當用戶點擊返回頂部按鈕時，網頁平滑滾動到頂部
+scrollToTopBtn.addEventListener("click", function() {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+});
+
+</script>
+
 </body>
 </html>
