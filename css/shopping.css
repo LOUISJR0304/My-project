@@ -11,6 +11,128 @@ body{
 }
 
 
+/* --------------漢堡線 -------------- */
+
+.ham {
+    position: absolute; 
+    top: 6%; left: 10%;
+    transform: translate(-50%, -50%);
+    width: 60px; height: 55px;
+    cursor: pointer;
+    transition: 0.5s;
+    display: none;
+  /*   background: rgba(255,255,255,0.3); */
+  }
+  .ham span {
+    display: block;
+    background: black;
+    width: 42px;
+    height: 4px;
+    border-radius: 3px;
+    transition: margin 0.25s 0.25s, transform 0.25s;
+  }
+  .ham .bar1 {margin-bottom: 8px;}
+  .ham .bar3 {margin-top: 8px;}
+  
+  .ham.active{
+      top: 6%;
+      left: 10%;
+      transition: 0.5s;
+  }
+  
+  .ham.active span {
+    transition: margin 0.25s , transform 0.25s 0.25s;
+  }
+  
+  .ham.active .bar1 {
+    margin-top: 8px;
+    margin-bottom: -4px;
+    transform: rotate(45deg);
+  }
+  .ham.active .bar2 {
+    transform: rotate(45deg);
+  }
+  .ham.active .bar3 {
+    margin-top: -4px;
+    transform: rotate(135deg);
+  }
+  
+  #menu{
+      position: relative;
+  }
+  
+  .menu-list{
+      position: absolute;
+      top: 0px;
+      left: -414px;
+      transition: 0.5s;
+  }
+  
+  .menu-list.animate{
+      left: 0px;
+      transition: 0.5s;
+  }
+  
+  .menu-list li{
+      width: 414px;
+      height: 50px;
+      /* display: flex; */
+      /* margin-bottom: 10px; */
+  }
+  
+  .menu-list li a{
+      font-size: 25px;
+      display: block;
+      text-decoration: none;
+      text-align: center;
+      line-height: 50px;
+      border-bottom: 1px solid black;
+      color: white;
+      background-color: black;
+  }
+  
+  .menu-list li:nth-child(3) a{
+      padding-left: 28px;
+  }
+  
+  .menu-list li:nth-child(5) a{
+      padding-left: 28px;
+  }
+  
+  .menu-list li:nth-child(9) a{
+      padding-left: 28px;
+  }
+  
+  .hidden{
+      display: none;
+      transition: 1s;
+  }
+  
+  .hidden2{
+      display: none;
+      transition: 1s;
+  }
+  
+  .hidden3{
+      display: none;
+      transition: 1s;
+  }
+  
+  .hidden.woo{
+      display: block;
+      transition: 1s;
+  }
+  
+  .hidden2.woo{
+      display: block;
+      transition: 1s;
+  }
+  
+  .hidden3.woo{
+      display: block;
+      transition: 1s;
+  }
+
 
 
 
@@ -304,9 +426,28 @@ footer img{
       object-fit: cover;
     }
 
-    /* ------------------------------------------------rwd -------------------------------------------------------*/
+/* ------------------------------------------------rwd -------------------------------------------------------*/
 
 @media screen and (max-width: 414px){
+
+.salesmam{
+    display: block;
+    float: right;
+    position: absolute;
+    top: 15px;
+    right: 0px;
+    z-index: 1;
+}
+
+
+.ham{
+    display: block;
+    z-index: 99;
+}
+
+.menu-list{
+    z-index: 99;
+}
 
 .top{
     display:none;
@@ -314,6 +455,7 @@ footer img{
 
 .mySwiper{
     display: block;
+    margin-top: 80px;
 }
 
 .main{
@@ -334,15 +476,52 @@ footer img{
     margin-bottom: 20px;
 }
 
+.text h1{
+    padding-left: 5px;
+}
+
 .text p {
     font-size: 20px;
-    width: 414px;
+    width: 400px;
+    padding: 0 5px;
 }
 
 .text p::before {
     right: 0px; 
     width: 414px; 
 
+}
+
+.bottom{
+    display: none;
+}
+
+.swiper.mySwiper{
+    display: none;
+}
+
+.section h2{
+    padding-left: 5px;
+}
+
+.section p{
+    width: 400px;
+    padding: 5px;
+}
+
+.quantity{
+    width: 400px;
+    padding-left: 5px;
+}
+
+header{
+    display: none;
+}
+
+/*------------------------ 最後尾巴 ----------------------*/
+
+footer{
+    display: none;
 }
 
 }
