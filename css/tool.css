@@ -107,6 +107,9 @@ header{
 
 }
 
+.main2{
+    margin-bottom: 50px;
+}
 
 /* ---------------- pho ---------------- */
 
@@ -168,4 +171,43 @@ footer img{
     width: 100%;
     display: block;
     height: auto
+}
+
+
+
+/* ------------------------------------------------rwd -------------------------------------------------------*/
+
+@media screen and (max-width: 414px){
+
+body{
+    font-size: 12px;
+}
+
+
+.top{
+    display: none;
+}
+
+.main {
+    width: 100%;
+}
+
+.main h1 {
+    width: 414px;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.main ul {
+    width: 100%;
+}
+
+.pic img {
+    width: 120px;
+}
+
+ul li h2{
+    width: 120px;
+}
+
 }

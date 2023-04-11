@@ -63,6 +63,14 @@
 
     <!-------------------------------------- main-------------------------------->
 
+    <swiper-container class="mySwiper" pagination="true" pagination-type="fraction">
+        <swiper-slide><img src="img/product.png" alt=""></swiper-slide>
+        <swiper-slide><img src="img/product2.png" alt=""></swiper-slide>
+        <swiper-slide><img src="img/product3.png" alt=""></swiper-slide>
+        <swiper-slide><img src="img/product-big.png" alt=""></swiper-slide>
+      </swiper-container>
+
+
 
     <div class="main">
 
@@ -74,8 +82,13 @@
             <h1>Drink M 量酒器</h1>
             <p>Stupid Bar 與日本知名餐具品牌「AOYOSHI 青芳製作所」訂製的專屬量酒器。</p>
             <p>NT$350</p>
+            <div class="quantity">
+                <button class="minus-btn" type="button">-</button>
+                <input type="text" min="1" max="5" step="1" value="1">
+                <button class="plus-btn" type="button">+</button>
+              </div>
             <a href="#">加入購物車</a>
-            <img src="img/Frame 110.png" alt="">
+            <!-- <img src="img/Frame 110.png" alt=""> -->
         </div>
 
     </div>
@@ -126,8 +139,7 @@
 
   <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-
-  <!-- Initialize Swiper -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>  <!-- Initialize Swiper -->
   <script>
     var swiper = new Swiper(".mySwiper", {
       spaceBetween: 30,
@@ -147,6 +159,25 @@
     });
   </script>
 
+  <script>
+    var minusBtn = document.querySelector(".minus-btn");
+    var plusBtn = document.querySelector(".plus-btn");
+    var inputField = document.querySelector("input");
+
+    minusBtn.addEventListener("click", function () {
+    if (inputField.value > 1) {
+        inputField.value = parseInt(inputField.value) - 1;
+    }
+    });
+
+    plusBtn.addEventListener("click", function () {
+    if (inputField.value < 10) {
+        inputField.value = parseInt(inputField.value) + 1;
+    }
+    });
+
+  </script>
+
 <!------------------------------------------------ 最後尾巴 -------------------------------------------------->
 
     <footer>
@@ -158,7 +189,7 @@
 <!------------------------------------------------ 警告標語 -------------------------------------------------->
 
 <div class="warn">
-    <img src="img/警告標語.png" alt="">
+    <img src="img/index/Group 25.png" alt="">
     </div>
     
 </body>
