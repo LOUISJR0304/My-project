@@ -10,6 +10,10 @@ body{
     font-family: 'Segoe UI';
 }
 
+.salesmam{
+    display: none;
+}
+
 
 /* --------------漢堡線 -------------- */
 
@@ -139,11 +143,11 @@ body{
 /* ---------heard---------- */
 
 header{
+    font-size: 20px;
+    /* width: 100%; */
     /* width: 1920px;*/
-    color: white;
     height: 200px;
     background-color: black;
-    margin-bottom: 21px;
 }
 
 .top img{
@@ -154,8 +158,8 @@ header{
 
 .top{
     /* height: 150px; */
-    /* width: 1200px; */
-    width: 63%;
+    width: 1200px;
+    /* width: 63%; */
     margin: 0 auto;
     color: white;
     display: flex;
@@ -172,7 +176,6 @@ header{
     margin-right: 60px;
     position: relative;
     display: flex;
-    font-size: 20px;
 
 }
 
@@ -192,10 +195,6 @@ header{
     display: block;
     width: 80px;
     /* text-align: center; */
-}
-
-.top li:hover > ol{
-    display: block;
 }
 
 
