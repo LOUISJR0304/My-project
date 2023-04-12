@@ -318,10 +318,14 @@ header{
     width: 100%;
     color: black;
     line-height: 1.4;
+    box-sizing: border-box;
 }
 
 .market{
-
+width: 62.5%;
+box-sizing: border-box;
+margin: 0 auto;
+/* background-color: #152969; */
 }
 
 .market h1{
@@ -332,6 +336,11 @@ header{
     position: relative;
     /* margin-left: 460px; */
     margin-bottom: 54px;
+    color: #c8c8c8;
+}
+
+.skills h1{
+    color: #8a8787;
 }
 
 .market h1::after{
@@ -340,17 +349,20 @@ header{
     width: 40%;
     height: 1px;
     background-color: white;
-    margin-left: 129px;
+    margin-left: 40px;
+    /* margin-right: 100px; */
     position: absolute;
     top: 40px;
+    
 }
 .skills h1::before{
     content: "";
     display: inline-block;
     width: 40%;
     height: 1px;
-    background-color: black;
-    margin-right: 129px;
+    background-color: rgb(202, 0, 0);
+    /* margin-right: 129px; */
+    /* margin-left: 100px; */
     position: absolute;
     top: 40px;
     left: 0;
@@ -676,6 +688,7 @@ footer img{
 
     .culture {
         width: 400px;
+        padding-top: 0;
     }
 
     .text{
@@ -689,6 +702,7 @@ footer img{
 
     .text span{
         height: 285px;
+        padding-top: 20px;
     }
 
 /* ----------------------- 返回按鈕 --------------------*/
