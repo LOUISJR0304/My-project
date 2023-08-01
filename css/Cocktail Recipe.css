@@ -56,15 +56,9 @@ body{
     transform: rotate(135deg);
   }
   
-<<<<<<< HEAD
   /* #menu{
       position: relative;
   } */
-=======
-  #menu{
-      position: relative;
-  }
->>>>>>> 7ccd5a185c51b6564b7c4f212cc78c3a3d029d93
   
   .menu-list{
       position: absolute;
@@ -154,11 +148,7 @@ header{
 }
 
 .top{
-<<<<<<< HEAD
     height: 150px;
-=======
-    /* height: 150px; */
->>>>>>> 7ccd5a185c51b6564b7c4f212cc78c3a3d029d93
     width: 1200px;
     /* width: 63%; */
     margin: 0 auto;
@@ -592,13 +582,10 @@ footer img{
 @media screen and (max-width: 414px){
 
 
-<<<<<<< HEAD
     header{
         height: 100px;
     }
 
-=======
->>>>>>> 7ccd5a185c51b6564b7c4f212cc78c3a3d029d93
     .salesmam{
         display: block;
         float: right;
@@ -668,12 +655,8 @@ footer img{
     }
 
     .recipe ul li{
-<<<<<<< HEAD
         /* height: 300px; */
         height: 250px;
-=======
-        height: 300px;
->>>>>>> 7ccd5a185c51b6564b7c4f212cc78c3a3d029d93
     }
 
     .recipe img{
@@ -696,14 +679,11 @@ footer img{
 
     .eat{
         display: block;
-<<<<<<< HEAD
         overflow-x: scroll;
     }
 
     .eat ul{
         width: 630px;
-=======
->>>>>>> 7ccd5a185c51b6564b7c4f212cc78c3a3d029d93
     }
 
     /* ----------------------- 返回按鈕 --------------------*/

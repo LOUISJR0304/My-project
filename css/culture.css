@@ -156,11 +156,7 @@ header{
 }
 
 .top{
-<<<<<<< HEAD
     height: 150px;
-=======
-    /* height: 150px; */
->>>>>>> 7ccd5a185c51b6564b7c4f212cc78c3a3d029d93
     width: 1200px;
     /* width: 63%; */
     margin: 0 auto;
@@ -542,11 +538,7 @@ footer img{
   #scroll-to-top {
     display: none;
     position: fixed;
-<<<<<<< HEAD
     bottom: 80px;
-=======
-    bottom: 200px;
->>>>>>> 7ccd5a185c51b6564b7c4f212cc78c3a3d029d93
     right: 20px;
     z-index: 99;
     /* font-size: 16px; */
@@ -573,14 +565,11 @@ footer img{
 @media screen and (max-width: 414px){
 
 
-<<<<<<< HEAD
     header{
         height: 100px;
     }
 
 
-=======
->>>>>>> 7ccd5a185c51b6564b7c4f212cc78c3a3d029d93
     .salesmam{
         display: block;
         float: right;
@@ -717,11 +706,7 @@ footer img{
     }
 
     .text span{
-<<<<<<< HEAD
-        height: 307px;
-=======
-        height: 285px;
->>>>>>> 7ccd5a185c51b6564b7c4f212cc78c3a3d029d93
+        height: 306px;
         padding-top: 20px;
     }
 
