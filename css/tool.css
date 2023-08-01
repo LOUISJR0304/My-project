@@ -364,8 +364,8 @@ footer img{
     float: right;
     position: absolute;
     top: 15px;
-    z-index: 99;
     right: 0px;
+    z-index: 99;
 }
 
 body {
