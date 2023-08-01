@@ -154,7 +154,11 @@ header{
 }
 
 .top{
+<<<<<<< HEAD
     height: 150px;
+=======
+    /* height: 150px; */
+>>>>>>> 7ccd5a185c51b6564b7c4f212cc78c3a3d029d93
     width: 1200px;
     /* width: 63%; */
     margin: 0 auto;
@@ -318,6 +322,7 @@ footer img{
     height: auto
 }
 
+<<<<<<< HEAD
 /* ----------------------- 返回按鈕 --------------------*/
 
 .arrow-right {
@@ -353,13 +358,24 @@ footer img{
     display: none;
   }
 
+=======
+>>>>>>> 7ccd5a185c51b6564b7c4f212cc78c3a3d029d93
 
 /* ------------------------------------------------rwd -------------------------------------------------------*/
 
 @media screen and (max-width: 414px){
 
+<<<<<<< HEAD
 
 .salesmam {
+=======
+header{
+    display: none;
+}
+
+
+.salesmam{
+>>>>>>> 7ccd5a185c51b6564b7c4f212cc78c3a3d029d93
     display: block;
     float: right;
     position: absolute;
@@ -368,6 +384,7 @@ footer img{
     z-index: 1;
 }
 
+<<<<<<< HEAD
 body {
     font-size: 12px;
 }
@@ -377,16 +394,31 @@ header {
 }
 
 .ham {
+=======
+body{
+    font-size: 12px;
+}
+
+.ham{
+>>>>>>> 7ccd5a185c51b6564b7c4f212cc78c3a3d029d93
     display: block;
     z-index: 1;
 }
 
+<<<<<<< HEAD
 .menu-list {
+=======
+.menu-list{
+>>>>>>> 7ccd5a185c51b6564b7c4f212cc78c3a3d029d93
     z-index: 1;
 }
 
 
+<<<<<<< HEAD
 .top {
+=======
+.top{
+>>>>>>> 7ccd5a185c51b6564b7c4f212cc78c3a3d029d93
     display: none;
 }
 
@@ -395,6 +427,7 @@ header {
 }
 
 .main h1 {
+<<<<<<< HEAD
     width: 413px;
     font-size: 25px;
     margin-bottom: 50px;
@@ -410,6 +443,16 @@ header {
 
 .main li{
     margin-right: 0;
+=======
+    width: 414px;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.main ul {
+    width: 405px;
+    padding-left: 9px;
+>>>>>>> 7ccd5a185c51b6564b7c4f212cc78c3a3d029d93
 }
 
 .pic img {
@@ -418,6 +461,7 @@ header {
 
 ul li h2{
     width: 120px;
+<<<<<<< HEAD
     margin: 0 auto;
 }
 
@@ -445,12 +489,29 @@ ul li h2{
 }
 
 .second-pic{
+=======
+}
+
+.teeth{
+    margin-bottom: 3px;
+}
+
+.ugly{
+    margin-bottom: 10px;
+}
+
+#good{
+>>>>>>> 7ccd5a185c51b6564b7c4f212cc78c3a3d029d93
     display: block;
 }
 
 /*------------------------ 最後尾巴 ----------------------*/
 
+<<<<<<< HEAD
 footer {
+=======
+footer{
+>>>>>>> 7ccd5a185c51b6564b7c4f212cc78c3a3d029d93
     display: none;
 }
 

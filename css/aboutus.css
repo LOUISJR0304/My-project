@@ -152,7 +152,11 @@ header{
 }
 
 .top{
+<<<<<<< HEAD
     height: 150px;
+=======
+    /* height: 150px; */
+>>>>>>> 7ccd5a185c51b6564b7c4f212cc78c3a3d029d93
     width: 1200px;
     /* width: 63%; */
     margin: 0 auto;
@@ -422,11 +426,14 @@ footer img{
 @media screen and (max-width: 414px){
 
 
+<<<<<<< HEAD
 header{
     height: 100px;
 }
 
 
+=======
+>>>>>>> 7ccd5a185c51b6564b7c4f212cc78c3a3d029d93
 .salesmam{
     display: block;
     float: right;

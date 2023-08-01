@@ -153,7 +153,11 @@ header{
 }
 
 .top{
+<<<<<<< HEAD
     height: 150px;
+=======
+    /* height: 150px; */
+>>>>>>> 7ccd5a185c51b6564b7c4f212cc78c3a3d029d93
     width: 1200px;
     /* width: 63%; */
     margin: 0 auto;
@@ -290,6 +294,7 @@ footer img{
     height: auto
 }
 
+<<<<<<< HEAD
 /* ----------------------- 返回按鈕 --------------------*/
 
 .arrow-right {
@@ -325,15 +330,20 @@ footer img{
     display: none;
   }
 
+=======
+>>>>>>> 7ccd5a185c51b6564b7c4f212cc78c3a3d029d93
 /* ------------------------------------------------rwd -------------------------------------------------------*/
 
 @media screen and (max-width: 414px){
 
 
+<<<<<<< HEAD
 header{
     height: 100px;
 }
 
+=======
+>>>>>>> 7ccd5a185c51b6564b7c4f212cc78c3a3d029d93
 
 .salesmam{
     display: block;
@@ -379,33 +389,51 @@ header{
 .photo ul{
     margin-top: 68px;
     margin-left: 27px;
+<<<<<<< HEAD
     flex-direction: column;
 }
 
 .photo ul li img {
     /* width: 100px; */
     width: 60%;
+=======
+}
+
+.photo ul li img {
+    width: 100px;
+>>>>>>> 7ccd5a185c51b6564b7c4f212cc78c3a3d029d93
 }
 
 .photo h2{
     font-size: 20px;
+<<<<<<< HEAD
     text-align: center;
+=======
+>>>>>>> 7ccd5a185c51b6564b7c4f212cc78c3a3d029d93
 }
 
 .photo p {
     font-size: 12px;
+<<<<<<< HEAD
     margin-bottom: 25px;
 }
 
 .photo ul li {
     margin-right: 0px;
     text-align: center;
+=======
+}
+
+.photo ul li {
+    margin-right: 30px;
+>>>>>>> 7ccd5a185c51b6564b7c4f212cc78c3a3d029d93
 }
 
 .photo {
     margin-bottom: 80px;
 }
 
+<<<<<<< HEAD
 
 /* ----------------------- 返回按鈕 --------------------*/
 
@@ -421,6 +449,8 @@ header{
     display: block;
 }
 
+=======
+>>>>>>> 7ccd5a185c51b6564b7c4f212cc78c3a3d029d93
 /*------------------------ 最後尾巴 ----------------------*/
 
 footer{
