@@ -164,6 +164,11 @@
         </ul>
     </div>
 
+    <button id="scroll-to-top">
+        <img class="first-pic" src="img/Group.png" alt="">
+        <img class="second-pic" src="img/Group3.png" alt="">
+    </button>
+
     
 <!------------------------------------------------ 最後尾巴 -------------------------------------------------->
 
@@ -202,6 +207,28 @@
         $(".hidden3").toggleClass("woo");
 
     })
+
+</script>
+
+<script>
+    var scrollToTopBtn = document.getElementById("scroll-to-top");
+
+// 當網頁滾動時，判斷是否顯示返回頂部按鈕
+window.onscroll = function() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    scrollToTopBtn.style.display = "block";
+  } else {
+    scrollToTopBtn.style.display = "none";
+  }
+}
+
+// 當用戶點擊返回頂部按鈕時，網頁平滑滾動到頂部
+scrollToTopBtn.addEventListener("click", function() {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+});
 
 </script>
 

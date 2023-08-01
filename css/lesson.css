@@ -290,6 +290,41 @@ footer img{
     height: auto
 }
 
+/* ----------------------- 返回按鈕 --------------------*/
+
+.arrow-right {
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid black;
+    transform: rotate(0deg);
+  }
+  
+  #scroll-to-top {
+    display: none;
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    z-index: 99;
+    /* font-size: 16px; */
+    background-color: #555;
+    /* color: #fff; */
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+  }
+  
+  #scroll-to-top:hover {
+    background-color: #333;
+  }
+
+  .second-pic{
+    display: none;
+  }
+
 /* ------------------------------------------------rwd -------------------------------------------------------*/
 
 @media screen and (max-width: 414px){
@@ -369,6 +404,20 @@ header{
 
 .photo {
     margin-bottom: 80px;
+}
+
+/* ----------------------- 返回按鈕 --------------------*/
+
+#scroll-to-top{
+    bottom: 40px;
+}
+
+.first-pic{
+    display: none;
+}
+
+.second-pic{
+    display: block;
 }
 
 /*------------------------ 最後尾巴 ----------------------*/
