@@ -170,7 +170,7 @@
                     <div class="recipe">
                     <ul>
                         <li>
-                            <img src="img/cocktail1.png" alt="">
+                            <img src="img/cocktail1.png" alt="" class="clickable-image">
                             <p>法式馬丁尼 French Martini</p>
                         </li>
                         <li>
@@ -206,6 +206,37 @@
                             <p>飛行 Aviation</p>
                         </li>
                     </ul>
+                </div>
+
+
+                <div class="bbg" id="popup">
+
+                    <div class="text-recipe" >
+                        <div class="pic-recipe">
+                            <img src="img/cocktail1.png" alt="">
+                        </div>
+                        <ul>
+                            <li>材料比例</li>
+                            <li>琴酒 60 ml</li>
+                            <li>法式茴香酒 	2 tsp</li>
+                            <li>現榨檸檬汁 20 ml</li>
+                            <li>純糖漿 20 ml</li>
+                            <li>薄荷葉 	6 株</li>
+                            <li>作法：
+                                <br>
+                                １．雪克杯放入薄荷葉，加入檸檬汁與糖漿用搗棒壓出香氣。
+                                <br>
+                                ２．加入兩種酒及冰塊，搖盪均勻。
+                                <br>
+                                ３．濾掉冰塊，將酒液倒入冰鎮過的馬丁尼杯。
+                                <br>
+                                <br>
+                                建議裝飾物：薄荷葉&檸檬片
+                            </li>
+                        </ul>
+
+                    </div>
+
                 </div>
 
             <!-------------------------- 屁股~ -------------------------->
@@ -297,6 +328,25 @@
         top: 0,
         behavior: "smooth"
     });
+    });
+    </script>
+
+    <script>
+    // 當用戶點擊照片，跳出酒譜詳情
+    const clickableImage = document.querySelector('.clickable-image');
+    const popup = document.getElementById('popup');
+
+    clickableImage.addEventListener('click', (event) => {
+        event.stopPropagation(); // 阻止點擊事件傳播到螢幕上
+        popup.classList.add('popup'); // 添加 popup 類別
+    });
+
+    // 添加點擊事件監聽器到整個螢幕
+    document.addEventListener('click', (event) => {
+        const isClickInsidePopup = popup.contains(event.target);
+        if (!isClickInsidePopup) {
+            popup.classList.remove('popup'); // 移除 popup 類別
+        }
     });
     </script>
 </body>
