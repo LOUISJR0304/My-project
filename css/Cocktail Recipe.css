@@ -483,11 +483,6 @@ nav{
     margin-right: 56px;
 }
 
-.recipe img{
-    /* margin-right: 56px; */
-    /* margin-top: 120px; */
-    /* margin-left: 89px; */
-}
 
 .recipe p{
     width: 300px;
@@ -735,6 +730,31 @@ footer img{
 
     .eat ul{
         width: 630px;
+    }
+
+    /* ----------------------- 酒譜 --------------------*/
+    .text-recipe{
+        display: block;
+    }
+
+    .text-recipe ul{
+        height: 100%;
+        width: 70%;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+
+    .pic-recipe img{
+        height: auto;
+        width: 70%;
+    }
+
+    .text-recipe ul li{
+        width: auto;
+    }
+
+    .popup {
+        top: 40%;
     }
 
     /* ----------------------- 返回按鈕 --------------------*/
